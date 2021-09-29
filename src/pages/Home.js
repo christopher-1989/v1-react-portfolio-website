@@ -1,5 +1,6 @@
 import React from 'react'
 import { listOfProjects, ProjectCard } from '../components/Projects'
+import { listOfSkills, SkillIcon } from '../components/Skills'
 import headshot from '../img/headshot.jpg'
 import './Home.css'
 
@@ -61,38 +62,7 @@ function Home() {
                     <section class="skills" id="skills">
                         <h2 class="section-heading">Skills</h2>
                         <div class="skill-set" >
-                            <div class="skill-container">
-                                <i class="fab fa-github" alt="GitHub"></i>
-                                <h3>GitHub</h3>
-                            </div>
-                            <div class="skill-container">
-                                <i class="fab fa-js" alt="JavaScript"></i>
-                                <h3>JavaScript</h3>
-                            </div>
-                            <div class="skill-container">
-                                <i class="fab fa-node" alt="Node.js"></i>
-                                <h3>Node.js</h3>
-                            </div>
-                            <div class="skill-container">
-                                <i class="fab fa-react" alt="React.js"></i>
-                                <h3>React</h3>
-                            </div>
-                            <div class="skill-container">
-                                <i class="fas fa-terminal" alt="Command Line Interface"></i>
-                                <h3>CLI</h3>
-                            </div>
-                            <div class="skill-container">
-                                <i class="fab fa-angular" alt="Angular.js"></i>
-                                <h3>Angular</h3>
-                            </div>
-                            <div class="skill-container">
-                                <i class="fab fa-vuejs" alt="Vue.js"></i>
-                                <h3>Python</h3>
-                            </div>
-                            <div class="skill-container">
-                                <i class="fab fa-python" alt="Python"></i>
-                                <h3>Python</h3>
-                            </div>
+                            {listOfSkills.map(icon => <SkillIcon props={icon} />)}
                         </div>
                     </section>
                     <section class="projects" id="projects">

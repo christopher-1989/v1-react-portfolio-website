@@ -51,8 +51,8 @@ export const listOfProjects = [
 
 export const ProjectCard = ({ props }) => {
     return (
-        <div class="project">
-            <a class="link" href={props.link} target="_blank">
+        <div class="project" key={props.index}>
+            <a class="link" href={props.link} target="_blank" rel="noopener noreferrer">
                 <h3><strong>{props.name}</strong></h3>
                 <div class="image-container">
                     <img src={props.thumbnail} alt={props.thumbnailAlt} class="card-pic" />

@@ -227,6 +227,10 @@ h1 {
   flex: 1;
 }
 
+.timer-container {
+  margin-top: 4rem;
+}
+
 .fab,
 .fas {
   font-size: 4rem;
@@ -259,6 +263,10 @@ h1 {
 .projects h3 {
   padding-left: 4vw;
   padding-right: 4vw;
+}
+
+.projects h4 {
+  padding: 1rem 0;
 }
 
 .project {
@@ -311,6 +319,7 @@ h1 {
 /* footer */
 
 footer {
+  margin-top: 2rem;
   padding: 6vw;
   background-color: #0b925e;
   display: grid;

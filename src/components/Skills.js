@@ -38,7 +38,7 @@ export const listOfSkills = [
 
 export const SkillIcon = ({ props }) => {
     return (
-        <div class="skill-container">
+        <div class="skill-container" key={props.index}>
             <i class={props.iconClass} alt={props.name}></i>
             <h3>{props.name}</h3>
         </div>

@@ -32,7 +32,7 @@ function Home() {
                             <a class="nav-button" id="button-three" href="#projects">Projects</a>
                         </div>
                         <div class="nav-item">
-                            <a class="nav-button" href="contact.html">Contact</a>
+                            <a class="nav-button" href="/contact">Contact</a>
                         </div>
                     </div>
                 </nav>

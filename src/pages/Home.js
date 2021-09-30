@@ -62,7 +62,7 @@ function Home() {
                 </section>
                 <footer>
                     <Link className="footer-button" to="/contact"><strong>Contact</strong></Link>
-                    <h4>Im a responsive website. View me on different devices :)</h4>
+                    <h4>Im a responsive website. View me at different window sizes :)</h4>
                 </footer>
             </main>  
         </div>

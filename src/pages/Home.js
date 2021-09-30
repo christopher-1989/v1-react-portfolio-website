@@ -6,10 +6,9 @@ import './Home.css'
 import { Timer } from '../components/Timer'
 import { Navbar } from '../components/Navbar'
 import { Link } from 'react-router-dom'
-
+// import '../services/navLogic'
 
 function Home() {
-
     
     return (
         <div>
@@ -63,6 +62,7 @@ function Home() {
                 </section>
                 <footer>
                     <Link className="footer-button" to="/contact"><strong>Contact</strong></Link>
+                    <h4>Im a responsive website. View me on different devices :)</h4>
                 </footer>
             </main>  
         </div>

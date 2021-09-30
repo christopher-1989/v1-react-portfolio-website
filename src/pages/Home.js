@@ -84,7 +84,7 @@ function Home() {
                             
                     </section>
                     <footer>
-                        <a className="footer-button" href="contact.html"><strong>Contact</strong></a>
+                        <a className="footer-button" href="/contact"><strong>Contact</strong></a>
                     </footer>
                 </main>  
                 </div>

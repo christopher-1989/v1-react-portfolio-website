@@ -50,9 +50,12 @@ export const listOfProjects = [
 
 
 export const ProjectCard = ({ props }) => {
+    const handleNullLink = () => {
+        alert("Video demostration or live app coming soon")
+    }
     return (
         <div class="project" key={props.index}>
-            <a class="link" href={props.link} target="_blank" rel="noopener noreferrer">
+            <a class="link" onClick={props.link ? null : handleNullLink} href={props.link} target="_blank" rel="noopener noreferrer">
                 <h3><strong>{props.name}</strong></h3>
                 <div class="image-container">
                     <img src={props.thumbnail} alt={props.thumbnailAlt} class="card-pic" />

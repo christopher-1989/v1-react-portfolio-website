@@ -1,7 +1,7 @@
 import React from 'react'
 import { listOfProjects, ProjectCard } from '../components/Projects'
 import { listOfSkills, SkillIcon } from '../components/Skills'
-import headshot from '../img/headshot.jpg'
+import headshot from '../img/headshot.png'
 import './Home.css'
 import { Timer } from '../components/Timer'
 import { Navbar } from '../components/Navbar'

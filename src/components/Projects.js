@@ -3,7 +3,9 @@ import ecommercebackend from '../img/e-commerce-backend.png';
 import authflow from '../img/Auth-flow-screenshot.png';
 import tmcAccount from '../img/tmc-account.png';
 import kyt from '../img/kyt-website.png';
-import wds from '../img/website-design-system.png'
+import wds from '../img/website-design-system.png';
+import android from '../img/android-cookbook.png';
+import ios from '../img/ios-cookbook.png';
 
 export const listOfProjects = [
     {
@@ -13,6 +15,22 @@ export const listOfProjects = [
         thumbnail: ecommercebackend,
         thumbnailAlt: "E-commerce backend project",
         keySkills: "ERD, Postgres, Node, Express, TDD"
+    },
+    {
+        type: "Full-stack",
+        name: "[iOS] recipeme - the pocket cookbook",
+        link: "https://apps.apple.com/au/app/recipeme-the-pocket-cookbook/id1616346969",
+        thumbnail: ios,
+        thumbnailAlt: "iOS mobile app",
+        keySkills: "TypeScript, React, React Native, Expo, Redux, native APIs"
+    },
+    {
+        type: "Full-stack",
+        name: "[android] recipeme - the pocket cookbook",
+        link: "https://play.google.com/store/apps/details?id=com.crobinmcdonald.recipeme",
+        thumbnail: android,
+        thumbnailAlt: "android mobile app",
+        keySkills: "TypeScript, React, React Native, Expo, Redux, native APIs"
     },
     {
         type: "Full-stack",

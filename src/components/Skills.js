@@ -2,15 +2,19 @@ import React from "react";
 
 export const listOfSkills = [
     {
+        iconClass: "fab fa-js-square",
+        name: "JavaScript/Typescript",
+    },
+    {
         iconClass: "fab fa-github",
         name: "GitHub",
     },
     {
-        iconClass: "fab fa-js",
-        name: "JavaScript",
+        iconClass: "fas fa-database",
+        name: "Mongo/SQL",
     },
     {
-        iconClass: "fab fa-node",
+        iconClass: "fab fa-node-js",
         name: "Node.js",
     },
     {
@@ -18,16 +22,8 @@ export const listOfSkills = [
         name: "React.js",
     },
     {
-        iconClass: "fas fa-terminal",
-        name: "CLI",
-    },
-    {
-        iconClass: "fab fa-angular",
-        name: "Angular.js",
-    },
-    {
-        iconClass: "fab fa-vuejs",
-        name: "Vue.js",
+        iconClass: "fab fa-java",
+        name: "Kotlin/Java",
     },
     {
         iconClass: "fab fa-python",

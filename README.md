@@ -7,3 +7,6 @@ The first version of this website included static HTML, CSS and minimal JS. For 
 Future updates will include videos of Apps and updated projects.
 
 The website portfolio is live [here](https://christopher-1989.github.io/react-portfolio-website/)
+
+To update website on Github:
+`npm run deploy`

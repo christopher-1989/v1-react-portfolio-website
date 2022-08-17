@@ -45,7 +45,8 @@ function Home() {
                     I started my programming journey while studying my Masters of Education in early 2018. At the time I was researching advanced pedagogical methods and one area of study included big data and machine learning. 
                     These concepts really appealed to me so when I completed my Masters degree I started learning how to code. 
                     Initially I learnt Python until late 2018 when my understanding culminated in projects that developed skills such as scraping websites, visualising data, and using machine learning algorithms. 
-                    I then became interested in learning Javascript as it is popular in both front-end and back-end architectures. Along the javascript journey I have developed skills using HTML, CSS, CLI as well as best practices in CI/CD, TDD, authentication, authorisation and accessibility. 
+                    I then became interested in learning Javascript as it is popular in both front-end and back-end architectures. Along the javascript journey I have developed skills using HTML, CSS, CLI as well as best practices in CI/CD, TDD, authentication, authorisation and accessibility.
+                    Certificates for courses I have completed can be found on my LinkedIn page.
                     </p>
                     <p className="second-para">
                     Since late 2020 I have spent most of my free time working on various personal projects developing fluency using high end technologies such as React, Node, Express, React Native, Expo, MySQL/Postgres, MongoDB, Amazon Web Services (AWS) and Docker to name a few.

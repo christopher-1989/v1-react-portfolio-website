@@ -56,7 +56,7 @@ function Home() {
                 <section className="skills" id="skills">
                     <h2 className="section-heading">Skills</h2>
                     <p className='first-para'><b>
-                    Professional skills snapshot: AWS, Git, Jira, CLI, Typescript/JavaScript, React, React Native, Expo, Kotlin, Java, Python, MongoDB, MySQL/Postgres, Insomnia/Postman, RabbitMQ, Kafka, Elastic/Kibana, Docker, Google Play store, Apple store, VSC, IntelliJ.
+                    Professional skills snapshot: AWS, Git, Jira, CLI, 0Auth/SSO, Typescript/JavaScript, React, React Native, Expo, Kotlin, Java, Python, MongoDB, MySQL/Postgres, Insomnia/Postman, RabbitMQ, Kafka, Elastic/Kibana, Docker, Google Play store, Apple store, VSC, IntelliJ.
                     </b></p>
                     <div className="skill-set" >
                         {listOfSkills.map((icon, index) => <SkillIcon props={icon} key={index}/>)}

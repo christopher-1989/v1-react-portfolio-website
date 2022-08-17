@@ -11,7 +11,7 @@ const handleClick = function () {
             <div>
                 <nav class="navbar">
                     <div class="nav-home-container" >
-                        <Link class="home-button" to="/">Portfolio Home</Link>
+                        <Link class="home-button" to="/">Home</Link>
                     </div>
                 </nav>
                 <main class="main-container">

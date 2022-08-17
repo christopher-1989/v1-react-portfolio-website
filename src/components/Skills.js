@@ -28,14 +28,14 @@ export const listOfSkills = [
     {
         iconClass: "fab fa-python",
         name: "Python",
-    },
+    }
 ]
 
 
 export const SkillIcon = ({ props }) => {
     return (
-        <div class="skill-container" key={props.index}>
-            <i class={props.iconClass} alt={props.name}></i>
+        <div className="skill-container" key={props.index}>
+            <i className={props.iconClass} alt={props.name}></i>
             <h3>{props.name}</h3>
         </div>
     )

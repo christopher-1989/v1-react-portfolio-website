@@ -3,7 +3,6 @@ import ecommercebackend from '../img/e-commerce-backend.png';
 import authflow from '../img/Auth-flow-screenshot.png';
 import tmcAccount from '../img/tmc-account.png';
 import kyt from '../img/kyt-website.png';
-import wds from '../img/website-design-system.png';
 import android from '../img/android-cookbook.png';
 import ios from '../img/ios-cookbook.png';
 
@@ -22,7 +21,7 @@ export const listOfProjects = [
         link: "https://apps.apple.com/au/app/recipeme-the-pocket-cookbook/id1616346969",
         thumbnail: ios,
         thumbnailAlt: "iOS mobile app",
-        keySkills: "TypeScript, React, React Native, Expo, Redux, native APIs"
+        keySkills: "TypeScript, React, React Native, Expo, Redux, native APIs, AWS Lambda, AWS API Gateway, AWS DynamoDB"
     },
     {
         type: "Full-stack",
@@ -30,7 +29,7 @@ export const listOfProjects = [
         link: "https://play.google.com/store/apps/details?id=com.crobinmcdonald.recipeme",
         thumbnail: android,
         thumbnailAlt: "android mobile app",
-        keySkills: "TypeScript, React, React Native, Expo, Redux, native APIs"
+        keySkills: "TypeScript, React, React Native, Expo, Redux, native APIs, AWS Lambda, AWS API Gateway, AWS DynamoDB"
     },
     {
         type: "Full-stack",
@@ -55,15 +54,7 @@ export const listOfProjects = [
         thumbnail: kyt,
         thumbnailAlt: "Know Your Trash website screenshot",
         keySkills: "React, TDD, Node, HTML, CSS"
-    },
-    {
-        type: "Front-end",
-        name: "Website design system",
-        link: "https://github.com/christopher-1989/website-design-system",
-        thumbnail: wds,
-        thumbnailAlt: "Know Your Trash website screenshot",
-        keySkills: "React, TDD, Node, HTML, CSS"
-    },
+    }
 ]
 
 
@@ -72,11 +63,11 @@ export const ProjectCard = ({ props }) => {
         alert("Video demostration or live app coming soon")
     }
     return (
-        <div class="project" key={props.index}>
-            <a class="link" onClick={props.link ? null : handleNullLink} href={props.link} target="_blank" rel="noopener noreferrer">
+        <div className="project" key={props.index}>
+            <a className="link" onClick={props.link ? null : handleNullLink} href={props.link} target="_blank" rel="noopener noreferrer">
                 <h3><strong>{props.name}</strong></h3>
-                <div class="image-container">
-                    <img src={props.thumbnail} alt={props.thumbnailAlt} class="card-pic" />
+                <div className="image-container">
+                    <img src={props.thumbnail} alt={props.thumbnailAlt} className="card-pic" />
                 </div>
                 <h4>Core capabilities: {props.keySkills}</h4>
             </a>

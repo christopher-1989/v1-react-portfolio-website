@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const navBarActiveStyle = {
     height: "100vh",
+    paddingTop: '1vh',
     display: "flex",
     flexDirection: "column"
 }
@@ -11,6 +12,7 @@ const navMenuActiveStyle = {
     width: '100%',
     float: 'none',
     top: '30vh',
+    marginTop: '6vh',
     left: '0',
     height: '20vh',
     display: 'flex',
